@@ -1,0 +1,82 @@
+.primary-overlay {
+  background: rgba(112, 81, 176, 0.6);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+}
+.section-header {
+  background: url(../img/background.jpg) !important;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: #fff;
+}
+.section-header-inner {
+  background: url(../img/background.jpg) !important;
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff;
+}
+.section-header .showcase {
+  padding-top: 100px;
+}
+.section-header-inner .showcase {
+  padding-top: 50px;
+}
+.section-header .showcase p {
+  padding-bottom: 20px;
+}
+.active-link {
+  color: #d847f1;
+  font-weight: 800;
+}
+/* .section-about-us img {
+  border-radius: 50%;
+} */
+
+.section-developers {
+  background: url(../img/code.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 180px;
+  position: relative;
+}
+.section-podcast {
+  background: url(../img/circuit.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 180px;
+  position: relative;
+}
+.section-podcast .primary-overlay {
+  background: rgba(112, 81, 176, 0.8);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+}
+.section-podcast a {
+  margin-top: 20px;
+}
+.section-testimonial p {
+  font-size: 20px !important;
+}
+.tabs .indicator {
+  background-color: rebeccapurple !important;
+}
+.btn-extend {
+  display: block;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .section-developers,
+  .section-podcast {
+    min-height: 240px;
+  }
+}
